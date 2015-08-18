@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Sory</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <style type="text/css">
+            html {
+                background-image: url(https://e95664e5a0cb092fb8178e0d9f91c1cfb5cf4093.googledrive.com/host/0B5fPAPZ_rvy-S0N2QWVPaEpVbFE/tmp/site-works.png);
+                background-repeat: no-repeat;
+                background-position: right bottom;
+                height: 100%;
+                /*background-color: rgb(233, 233, 233);*/
+            }
+            /*body {*/
+            /*    background: none;*/
+            /*}*/
+            header {
+                background-color: #4F729A;
+                box-shadow: 0 0 15px black;
+                border-radius: 0 0 15px 15px;
+                border: 1px solid white;
+                border-top: none;
+            }
+        </style>
+    </head>
+    <body>
+        <!--<h1>Sory</h1>-->
+        <!--<img src="https://e95664e5a0cb092fb8178e0d9f91c1cfb5cf4093.googledrive.com/host/0B5fPAPZ_rvy-S0N2QWVPaEpVbFE/tmp/construction.png" />-->
+        
+        <div class="container">
+          
+          <header class="text-center">
+              <img src="https://e95664e5a0cb092fb8178e0d9f91c1cfb5cf4093.googledrive.com/host/0B5fPAPZ_rvy-S0N2QWVPaEpVbFE/tmp/vk-face.com75.png" />
+          </header>
+          
+          <hr>
+          
+          <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                  <div class="caption bg-danger">
+                    <h2>Technical works!</h2>
+                    <p>Sorry for any inconvenience. Please try again in 5 minutes.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                  <div class="caption bg-danger">
+                      <h2>Технічні роботи!</h2>
+                      <p>Приносимо вибачення за незручності. Повторіть спробу через 5 хв.</p>
+                  </div>
+                </div>
+           </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                  <div class="caption bg-danger">
+                      <h2>Технические роботы</h2>
+                      <p>Приносим извинения за неудобства. Повторите попытку через 5 мин.</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+    
+          <hr>
+    
+          <footer>
+            <p>vk-face.com © <span id="year">2014</span></p>
+          </footer>
+        </div>
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var year = new Date().getFullYear();
+                year = year > 2014? '2014-'+year: year;
+                console.log(year)
+                $('#year').html(year)
+            })
+        </script>
+    </body>
+</html>
